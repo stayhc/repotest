@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button 
+          defaultHref="/"
+          text="Atrás"
+          color="black"
+          mode="ios"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Nosotros</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="ion-text-center">
+    <img src="/assets/compartelo_letra.png" width="50%" height="50%" />
+  </div>
+  
+    <ion-card>       
+      <ion-card-header>
+         <ion-card-title color="primary" class="titulo ion-text-center">¿Por qué Compártelo?</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content class="ion-padding ion-text-justify">
+        
+          Nuestra propuesta se basa en ofrecer una plataforma en la cual los usuarios puedan proveer de alimento a las personas en situacion de calle, 
+          quienes se registren podrán apadrinar y ofrecer apoyo, nosotros seremos el intermediario entre tú y las personas a las que ayudarás, 
+          ofrecemos la logística, el almacenamiento de los alimentos y nos preocuparemos de hacer llegar tu ayuda.
+        
+      </ion-card-content>
+    </ion-card>
+    <div class="ion-text-center">
+      <img src="/assets/almuerzo.png" width="70%" height="70%" />
+    </div>
+    <br>
+    <ion-button type="submit" expand="block" routerLink="/registro">
+      <ion-icon name="key" slot="end"></ion-icon>
+      Quiero registrarme
+   </ion-button>
+   <br>
+    <ion-card>
+      <ion-card-title color="primary" class="titulo ion-text-center">¿Qué es la ODS?</ion-card-title>
+     <br>
+      <ion-img src="/assets/ods_globo.png"></ion-img>
+
+      <ion-card-content class="ion-text-justify">
+
+        Los Objetivos de Desarrollo Sostenible, también conocidos como Objetivos Mundiales, se adoptaron por todos los Estados Miembros en 2015 como un 
+        llamado universal para poner fin a la pobreza, proteger el planeta y garantizar que todas las personas gocen de paz y prosperidad para 2030.
+
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-item href="https://www1.undp.org/content/undp/es/home.html" target="_blank" class="ion-activated">
+        <ion-icon name="globe-outline" slot="start"></ion-icon>
+        <ion-label>Página ODS</ion-label>
+      </ion-item>
+    
+      <ion-item href="https://www.facebook.com/PNUD/" target="_blank">
+        <ion-icon name="logo-facebook" slot="start"></ion-icon>
+        <ion-label>Facebook</ion-label>
+      </ion-item>
+    
+      <ion-item href="https://www.instagram.com/UNDP/" target="_blank">
+        <ion-icon name="logo-instagram" slot="start"></ion-icon>
+        <ion-label>Instagram</ion-label>
+      </ion-item>      
+    </ion-card>
+
+</ion-content>

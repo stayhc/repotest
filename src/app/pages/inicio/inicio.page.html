@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-button (click)="mostrarMenu()">
+        <ion-icon slot="icon-only" name="menu-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-avatar>
+         <ion-img src="/assets/compartelo_logo.png"></ion-img>
+      </ion-avatar>
+    </ion-buttons>
+
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <br>
+    <ion-card-title color="primary" class="titulo ion-text-center">Sé parte de esto</ion-card-title>
+   <br>
+    <ion-img src="/assets/manos_nino_pan.jpg"></ion-img>
+
+    <ion-card-content class="ion-text-justify">
+
+      Cada año repartimos más de mil cajas de alimento y ropa a hogares necesitados y personas en situación de calle, pero aún existen muchas personas que necesitan tu apoyo
+      más que nunca, es por esto que creamos esta App para facilitarte las cosas y así puedas apadrinar a quienes más lo necesitan.
+
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item href="https://www.compartelo.cl" target="_blank" class="ion-activated">
+      <ion-icon name="globe-outline" slot="start"></ion-icon>
+      <ion-label>Web Compártelo.cl</ion-label>
+    </ion-item>   
+  </ion-card>
+
+</ion-content>

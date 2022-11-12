@@ -1,0 +1,39 @@
+<ion-content class='ion-padding'>
+    <div class="ion-text-center">
+        <img src="/assets/compartelo_letra.png" width="50%" height="50%" />
+    </div>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title class="ion-text-center">Iniciar sesión</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <form [formGroup]="formularioLogin">
+        <ion-item>
+          <ion-label position="floating">Nombre</ion-label>
+          <ion-input formControlName="nombre" autofocus="true"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Contraseña</ion-label>
+          <ion-input formControlName="password" type="password"></ion-input>
+        </ion-item>
+      </form>
+      <br>
+    <ion-grid>
+        <ion-row>
+            <ion-col size="6" class="boton1">
+              <ion-button (click)="ingresar()">
+                Ingresar
+            </ion-button>
+            </ion-col>
+            <ion-col size="6" class="boton2">
+                <ion-button  [routerLink]="['/registro']">
+                    Registrarse
+                </ion-button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    </ion-card-content>
+  </ion-card>
+  <p class="ion-text-center">Compártelo App @ Derechos reservados</p>
+</ion-content>
+
